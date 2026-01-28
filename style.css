@@ -1,0 +1,66 @@
+ 
+ :root {
+     --primary: #fbbf24;
+     --dark: #0f172a;
+ }
+
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ /* HERO */
+ .hero {
+     min-height: 100vh;
+     background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)),
+         url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ /* PROJECTS */
+ .project-card {
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .project-card:hover {
+     transform: translateY(-8px);
+     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+ }
+
+ /* TESTIMONIALS */
+ .testimonial-card {
+     border-radius: 16px;
+     transition: transform 0.3s ease;
+ }
+
+ .testimonial-card:hover {
+     transform: translateY(-8px);
+ }
+
+ /* PRICING */
+ .pricing-card {
+     border-radius: 16px;
+ }
+
+ /* BUTTON */
+ .btn-warning {
+     background-color: var(--primary);
+     border: none;
+ }
+
+ .btn-warning:hover {
+     background-color: #f59e0b;
+ }
+
+ .btn-outline-warning {
+     border: 2px solid #fbbf24;
+     color: #fbbf24;
+ }
+
+ .btn-outline-warning:hover {
+     background-color: #fbbf24;
+     color: #000;
+ }
